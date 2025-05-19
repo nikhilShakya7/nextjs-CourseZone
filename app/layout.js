@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 />
 
       </head>
-      <body className="bg-dark text-light">
+      <body className="bg-light text-dark">
         {children}
       </body>
     </html>

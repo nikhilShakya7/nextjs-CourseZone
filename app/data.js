@@ -45,16 +45,8 @@ export const courses = [
     icon: <FaServer color="#ec4899" />,
   },
 
-  {
-  id: "ai",
-  title: "AI with Python",
-  icon: <FaPython color="#f59e0b" />,
-},
-{
-  id: "devops",
-  title: "DevOps Fundamentals",
-  icon: <FaServer color="#10b981" />,
-}
+  
+ 
 
 ];
 export const courseDetails = [
@@ -140,27 +132,5 @@ export const courseDetails = [
       { id: 703, title: "Database Fetch API" },
     ],
   },
-  {
-  id: "ai",
-  title: "AI with Python",
-  duration: "3 months",
-  level: "Advanced",
-  projects: [
-    { id: 801, title: "Chatbot with NLP" },
-    { id: 802, title: "Image Classifier with CNN" },
-    { id: 803, title: "Stock Price Predictor" },
-  ],
-},
-{
-  id: "devops",
-  title: "DevOps Fundamentals",
-  duration: "2 months",
-  level: "Intermediate",
-  projects: [
-    { id: 901, title: "CI/CD Pipeline with GitHub Actions" },
-    { id: 902, title: "Dockerized Microservices" },
-    { id: 903, title: "Kubernetes Deployment" },
-  ],
-}
-
+  
 ];
