@@ -15,7 +15,7 @@ const CourseList = () => {
               <div className="course-icon">{course.icon}</div>
               <h5 className="course-title">{course.title}</h5>
               <Link
-                href={`/project1/${course.id}`} // Fixed the template literal
+                href={`/project1/${course.id}`}
                 className="btn btn-outline-warning mt-4"
               >
                 Explore Course
